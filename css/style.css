@@ -1,1 +1,26 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+background-color: yellowgreen;
+
+}
+
+h1 {
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+
+#container {
+    width: 60vw;
+    margin:auto;
+    grid-template-areas: 
+'hd'
+'nv'
+'mn'
+'ft'
+
+}
+
+header {
+    grid-area: hd;
+
+}

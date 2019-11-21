@@ -1,1 +1,3 @@
-// Denna fil skall innehålla JavaScript (JS)
+document.addEventListener("click", function(){
+    document.getElementById("demo").innerHTML = " ";
+  });
