@@ -10,7 +10,7 @@ h1 {
 }
 
 #container {
-    width: 60vw;
+    width: 100vw;
     margin:auto;
     grid-template-areas: 
 'hd'
@@ -23,4 +23,34 @@ h1 {
 header {
     grid-area: hd;
 
+}
+
+nav {
+
+    grid-area: nv;
+}
+
+img {
+
+  border-radius: 6px;
+width: 50%;
+height:auto;
+
+
+}
+
+main {
+    grid-area:mn;
+    background-color: gray;
+}
+
+footer {
+grid-area: ft;
+}
+
+#wrapper {
+
+    float:right;
+    width:200px;
+    border: solid 1px black;
 }
