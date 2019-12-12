@@ -1,3 +1,12 @@
 document.addEventListener("click", function(){
-    document.getElementById("demo").innerHTML = " ";
+    document.getElementById("demo").style.display = "main";
   });
+
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }

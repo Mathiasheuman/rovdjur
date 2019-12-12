@@ -1,4 +1,4 @@
-body {
+#index {
 background-color: whitesmoke;
 
 }
@@ -62,3 +62,12 @@ hr{
     border: 0.5px solid black;
 }
 
+#fakta{
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    border: black solid 0.04cm;
+    background-color: silver;
+}
